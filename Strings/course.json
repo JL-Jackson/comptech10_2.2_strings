@@ -1,0 +1,461 @@
+{
+  "course_version" : 37,
+  "environment" : "unittest",
+  "summary" : "Master Python fundamentals with no prior experience. Learn by coding in a professional IDE—stress-free, hands-on, and broken into well-structured lessons for smooth, beginner-friendly progress.",
+  "title" : "Introduction to Python",
+  "programming_language_id" : "Python",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "jderpak"
+  },
+  "items" : [
+    {
+      "id" : 13419,
+      "title" : "Strings",
+      "task_list" : [
+        {
+          "id" : 186020,
+          "name" : "Concatenation",
+          "files" : {
+            "concatenation.py" : {
+              "name" : "concatenation.py",
+              "placeholders" : [
+                {
+                  "offset" : 47,
+                  "length" : 3,
+                  "possible_answer" : "Dte/TD3H1wPQglbhmhSenY1nHZ18fk+oRe1HsKpPyFo=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "Remember that some arithmetic operations can also apply to non-numeric types?\nCombining two strings using the `+` symbol is called concatenation.  \n  \nUse the `hello` and `world` variables to get a string `\"Hello World\"`.  \n\n<div class='hint'>Use chained concatenation and a single-space string <code>\" \"</code>.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+Concatenation",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186021,
+          "name" : "String multiplication",
+          "files" : {
+            "string_multiplication.py" : {
+              "name" : "string_multiplication.py",
+              "placeholders" : [
+                {
+                  "offset" : 29,
+                  "length" : 6,
+                  "possible_answer" : "kD+FObku7Zrv6mi6vwtYKfxK6G6FErAkPym77wv8hNE=",
+                  "placeholder_text" : "'TODO'"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "Python also supports string-by-number multiplication (but not the other way around!).  \n  \nUse `not_yet_food` variable to get a food name stored in `food` \nvariable. \n\n<div class=\"hint\">\n\n`\"cous\"` repeated `2` times gives you [`\"couscous\"`](https://en.wikipedia.org/wiki/Couscous).\n</div>\n\n<div class='hint'>Use multiplication.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Multiplication",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186022,
+          "name" : "String indexing",
+          "files" : {
+            "string_indexing.py" : {
+              "name" : "string_indexing.py",
+              "placeholders" : [
+                {
+                  "offset" : 101,
+                  "length" : 3,
+                  "possible_answer" : "Uc0Guk5XEIejdtPx5dZnvA==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "You can access a character in a string if you know its position. For example, \n`str[index]` will yield the character at position `index` in the string `str`.\nNote that string indexing always starts at `0`. `index` raises `ValueError` \nwhen `x` is not found in the string.\n\nIndices may also be negative numbers if you need to start counting from the right \n(i.e., from the end of your string). \nNote that since `-0` is the same as `0` , negative indices start from `-1`.  \n\n\n### Task\nUse the index operator to get the letter `\"P\"` from `\"Python\"` .  \n\n<div class=\"hint\">Note that indices start with 0.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Indexing",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186023,
+          "name" : "String negative indexing",
+          "files" : {
+            "negative_indexing.py" : {
+              "name" : "negative_indexing.py",
+              "placeholders" : [
+                {
+                  "offset" : 58,
+                  "length" : 3,
+                  "possible_answer" : "UU9vTrzUo+a6ydkWcsJ9dA==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "As we said, you can use negative indices to count characters ‘backwards’ starting\nfrom the end of a string.  \n\n\n### Task\nUse a negative index to get the `'!'` sign from `long_string`.   \n\n<div class='hint'>Use a negative index.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Negative+Indexing",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186024,
+          "name" : "String slicing",
+          "files" : {
+            "slicing.py" : {
+              "name" : "slicing.py",
+              "placeholders" : [
+                {
+                  "offset" : 165,
+                  "length" : 3,
+                  "possible_answer" : "/6K5xZCishqzy5Q9PuIE5ZlNnIO/AVUNhZFtAmwKQfk=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "Slicing is used to extract multiple characters (a substring) from a string. \nIts syntax is similar to that of indexing, but instead of just one index you use \ntwo indices (numbers) separated by a colon, e.g., `str[ind1:ind2]`. These two \nindices correspond to the start and the end of the substring. Note that the symbol \nwith the index `ind1` will be included, while the symbol with the index `ind2` – won't.\n\nHere's a visual on how slicing works in Python:\n\n```text\n+---+---+---+---+---+---+\n| P | y | t | h | o | n |\n+---+---+---+---+---+---+\n0   1   2   3   4   5   6\n-6  -5  -4  -3  -2  -1\n```\n\n##### Example\n<pre><code>\nstr[start:end] # items start through end-1\nstr[start:]    # items start through the rest of the array\nstr[:end]      # items from the beginning through end-1\nstr[:]         # a copy of the whole array\n</code></pre>\n\n\n### Task\nUse slicing to get `\"Python\"` from the `monty_python` variable.  \n\n<div class='hint'>You can leave one of the indices empty.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Slicing",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186025,
+          "name" : "In operator",
+          "files" : {
+            "in_operator.py" : {
+              "name" : "in_operator.py",
+              "placeholders" : [
+                {
+                  "offset" : 99,
+                  "length" : 3,
+                  "possible_answer" : "YA1TKju6v0oJaEEpU4kWC2LR5DvbGmnIrSkfH9yZ+Vg=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "If you want to check whether a string contains a specific letter or a substring, \nyou can use the `in` keyword.  \n  \n### Task\nCheck if there is `\"ice\"` in `\"ice cream\"` and assign the result to the variable `contains`.  \n\n<div class=\"hint\">Use the <code>in</code> operator.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+In+Operator",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186026,
+          "name" : "String length",
+          "files" : {
+            "len_function.py" : {
+              "name" : "len_function.py",
+              "placeholders" : [
+                {
+                  "offset" : 121,
+                  "length" : 3,
+                  "possible_answer" : "jtgAkkh96OH29tSMm5OPdislabG0yGa/GYKhuz3kqhQ=",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 183,
+                  "length" : 3,
+                  "possible_answer" : "LrVL9uMKntpgyJrnzVuE6oTmaCLZg3Sus1VKJ8e1jwo=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "The `len()` method is used to count how many characters a string contains.\n\nFor example:\n```python\ns = \"Hello World\"\nprint(len(s))   # will print 11\n```\n\nNote that the result of the `/` division operation is of type float:\n```python\na = 10/2\nprint(a)        # 5.0\nprint(type(a))  # <class 'float'>\n```\n\n\n### Task\nGet the first half of the string stored in the variable `phrase`.  \nNote: when getting the index, remember about type conversion.  \n\n<div class='hint'>You need to obtain a slice of the string from its start  \nto the middle point.</div>\n\n<div class='hint'>Get the middle index by dividing the string length by 2. The \ndivision result needs to be an integer.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Length",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186027,
+          "name" : "Character escaping",
+          "files" : {
+            "character_escaping.py" : {
+              "name" : "character_escaping.py",
+              "placeholders" : [
+                {
+                  "offset" : 159,
+                  "length" : 3,
+                  "possible_answer" : "Y6rmg0t3jrwOMa5wkI3OBaIY8xU1+eI3Ylw1GeLgdk0PDkJceSkwnjnAvn3n1eaO",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "Backslash is used to escape special symbols, such as single or double quotation marks, \nfor example, `\"It\\'s me\"` or `\"She said \\\"Hello\\\"\"`. If you need to actually type the <code>\\\\</code>\ncharacter as part of your string, you will need to escape it too. For example, here's how \nyou print a single backslash:\n\n```python\nprint('\\\\')\n```\n\nThe special symbol `'\\n'` is used to add a line break to a string, while `'\\t'` means tabulation.\n\nQuotes have special meanings, and they can be escaped with a backslash too. \nIf you need to print quotes inside a string, use a different kind of quotes: single quotation \nmarks may be used in a double-quoted string without escaping, and vice versa. Also, as a side note, it is a good \nidea to pick your favorite kind of quotes and use them consistently.\n\nYou can learn more about escaping from <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#string-and-bytes-literals\">this section</a> of Python Documentation.\n\n\n### Task\nPrint out the following text using one string:  \n```text\nThe name of this ice cream is \"Sweet'n'Tasty\"  \n```\n\n<div class='hint'>Use the backslash to escape quotes.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+Character+Escaping",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186028,
+          "name" : "Basic string methods",
+          "files" : {
+            "string_methods.py" : {
+              "name" : "string_methods.py",
+              "placeholders" : [
+                {
+                  "offset" : 131,
+                  "length" : 3,
+                  "possible_answer" : "dhmgeFK4lWK0pYLoM7Y5rhpy5xq/+c6G7pknnWQ70EQ=",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "There are many useful string methods. For instance, you can use the `lower()` method to get \nrid of any capitalization in your strings. The `upper()` method is used to make a string \nuppercase. To call any string method, type a dot after the string (or a variable containing \nthe string) and the method name after it, e.g., `\"John\".upper()`. In PyCharm, you can \nexplore all available string methods by using the &shortcut:CodeCompletion; shortcut after the dot. \nDetailed information about all string methods can be found <a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">here</a>.\n\n\n### Task\nPrint `monty_python` in upper case using an appropriate string method.  \n\n<div class='hint'>Pay attention to how the <code>lower()</code> method is used in our code.</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+Basic+String+Methods",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 186029,
+          "name" : "String formatting",
+          "files" : {
+            "string_formatting.py" : {
+              "name" : "string_formatting.py",
+              "placeholders" : [
+                {
+                  "offset" : 129,
+                  "length" : 3,
+                  "possible_answer" : "pFKTpgDBiCqxfvG+cg8GMw==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 144,
+                  "length" : 5,
+                  "possible_answer" : "eD6RWcHwM8xd6MkuqfGFHw==",
+                  "placeholder_text" : "'???'"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "The `%` operator after a string is used to combine the string with variables. \nThe `%` operator will replace `%s` in a string with the string variable that \ncomes after it. The `%d` special symbol is used as a placeholder for numeric \nor decimal values.  \n\n> <i><b>Note</b>: The formatting operations described here exhibit a variety \n> of quirks that lead to a number of common errors. \n> Using the newer formatted string literals (see [further](course://Strings/F-strings)), \n> the <code><a href=\"https://docs.python.org/3/library/stdtypes.html#str.format\">str.format()</a></code> \n> interface, or <a href=\"https://docs.python.org/3/library/string.html#template-strings-strings\">template strings</a> may help avoid these errors. \n> Each of these alternatives provides their own trade-offs and benefits of \n> simplicity, flexibility, and/or extensibility.</i>\n\n\n### Task\nTell PyCharm how old you are (using digits).  \n\n<div class='hint'>Use the <code>%d</code> special symbol.</div>\n<div class='hint'>How old are you?</div>\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Formatting",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 838741241,
+          "name" : "F-strings",
+          "files" : {
+            "f_strings.py" : {
+              "name" : "f_strings.py",
+              "placeholders" : [
+                {
+                  "offset" : 7,
+                  "length" : 3,
+                  "possible_answer" : "8V6HNKL7hAWBzAo512WXyg==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 17,
+                  "length" : 3,
+                  "possible_answer" : "DXdeVjnqwe6gRiLvi33RfQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 47,
+                  "length" : 3,
+                  "possible_answer" : "4iMGpMhlTtqw1gs/vbjxgQ==",
+                  "placeholder_text" : "???"
+                },
+                {
+                  "offset" : 59,
+                  "length" : 3,
+                  "possible_answer" : "XSmS7jRjR00xYEE49HNA4A==",
+                  "placeholder_text" : "???"
+                }
+              ],
+              "is_visible" : true,
+              "is_binary" : false
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "is_binary" : false
+            }
+          },
+          "description_text" : "A formatted string literal, or an f-string, is a string literal that is prefixed \nwith 'f' or 'F'. These strings may contain replacement fields, which are \nexpressions delimited by curly braces `{}`. \n\nThe parts of the string outside curly braces are treated literally. \nEscape sequences are decoded like in ordinary string literals.\nReplacement expressions can contain line breaks (e.g., in triple-quoted strings), \nbut they cannot contain comments. Each expression is evaluated in the context \nwhere the formatted string literal appears, in order from left to right.\n\nHere are some examples:\n```python\nname = \"Fred\"\nf\"He said his name is {name}.\"\n```\n```text\n'He said his name is Fred.'\n```\n\nThere are more fancy things you can do in f-strings, for example:\n```python\nf\"{name.lower()} is funny.\"\n```\n\n```text\n'fred is funny.'\n```\nFor more information about formatted string literals you can refer to <a href=\"https://docs.python.org/3/reference/lexical_analysis.html#formatted-string-literals\">Python Docs</a>.\n\n\n### Task\nTry creating an f-string yourself. Also try running the code to see what it prints.\n\n<div class=\"hint\">The value assigned to the <code>name</code> variable has to be a string, so it needs to be in quotes, \nlike so: <code>'Max'</code>.</div>\n\n",
+          "description_format" : "MD",
+          "feedback_link" : "https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+F-strings",
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "tags" : [
+    "Beginner-friendly"
+  ],
+  "id" : 16630,
+  "generated_edu_id" : "Introduction to Python_JetBrains_Python",
+  "update_date" : "Oct 25, 2021 07:56:01 AM",
+  "additional_files" : [
+    {
+      "name" : "LICENSE",
+      "is_visible" : false,
+      "is_binary" : false
+    },
+    {
+      "name" : "README.md",
+      "is_visible" : false,
+      "is_binary" : false
+    },
+    {
+      "name" : "requirements.txt",
+      "is_visible" : false,
+      "is_binary" : true
+    }
+  ],
+  "version" : 23,
+  "edu_plugin_version" : "2026.9-2026.2-543"
+}
